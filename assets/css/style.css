@@ -164,10 +164,9 @@ html {
 }
 
 .main__list-item {
-    width: 48%;
+    width: 50%;
     background-color: #fff;
     padding: 0 10px 10px 10px;
-    margin: 10px;
 }
 
 .list__item-header {
