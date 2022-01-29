@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.width_40 {
+    width: 40%;
+}
+
+.width_20 {
+    width: 20%;
+}
+
+/* COMMON */
+
+#main {
+    margin: 10px;
+    background-color: #ebebeb;
+}
+
+
+#header {
+}
+
+#header .header__bg {
+    width: 100%;
+    min-height: 383px;
+    background: url("/assets/img/header-img/TRuoNG_THPT_My_duC_C_3_780bcdf451\ \(1\).png") top center / cover no-repeat;
+}
+
+#module {
+    background-color: #1647a3;
+}
+
+#module #module__nav {
+    display: flex;
+
+}
+
+#module__nav li {
+    list-style: none;
+    flex: 1;
+    border: 2px solid #000;
+    font-size: 14px;
+
+}
+
+#module__nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#module__nav li:hover a {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px 5px 0 0;
+}
+
+#content {
+    width: 100%;
+}
+
+.content__nav {
+    width: 20%;
+    float: left;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.content__nav-header {
+
+}
+
+.content__nav-desc,
+.content__nav-text {
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #000;
+    padding: 2px;
+}
+
+.content__nav-desc i {
+    float: right;
+    padding: 0 2px;
+    border-left: 2px solid #000;
+    height: 18px;
+}
+
+.content__nav-text a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content__nav-body {
+
+}
+
+.content__body-copyright {
+    margin-bottom: 20px;
+}
+
+.copyright__header {
+    background-color: #9f224e;
+    padding: 10px 15px;
+}
+
+.copyright__header h2 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.copyright__img {
+
+}
+
+.copyright__img a img {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #eaeaea;
+}
+
+.copyright__data {
+    padding: 10px;
+}
+
+.copyright__data-list {
+    list-style: none;
+}
+
+.copyright__data-list li {
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.copyright__data-list li span {
+    float: right;
+}
+
+.content__main {
+    width: 80%;
+    float: right;
+}
+
+.content__main-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__list-item {
+    width: 48%;
+    background-color: #fff;
+    padding: 0 10px 10px 10px;
+    margin: 10px;
+}
+
+.list__item-header {
+    border-bottom: 2px solid #1647a3;
+}
+
+.item__header {
+    padding: 10px;
+    background: url("/assets/img/content-img/content-main-img/bg_pn.png") #1647a3;
+    display: inline-block;
+}
+
+.item__header h2 {
+    font-size: 16px;
+}
+
+.item__header h2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.item__body {
+    margin: 10px 0;
+}
+
+.item__title {
+
+}
+
+.item__title-img {
+    width: 35%;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.item__title-img a {
+
+}
+
+.item__title-img a img {
+    width: 100%;
+}
+
+.item__title-text {
+    width: 65%;
+    float: right;
+    padding: 0 10px;
+}
+
+.item__title-text h2 {
+    font-size: 18px;
+
+}
+
+.item__title-text h2 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+.item__body-text {
+    float: left;
+    padding: 0 20px;
+    background-color: #f1f4f7;
+}
+
+.body__text-desc {
+    border: 1px solid #eaeaea;
+}
+
+.body__text-desc li {
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 1px dashed #d3d3d3;
+}
+
+.body__text-desc li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#footer {
+    width: 100%;
+    background-color: #1647a3;
+}
+
+.footer__container {
+    display: flex;
+}
+
+.footer__col-one {
+    padding: 10px;
+}
+
+.col__header {
+    padding: 10px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.col__header-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.col__body {
+
+}
+
+.col__body p {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.col__body-title {
+    font-size: 16px;
+}
+
+.col__body-text {
+    font-size: 14px;
+}
+
+.col__body-text a {
+    text-decoration: none;
+    color: #fff;
+}
